@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f9fc">
+    <meta name="description" content="Resume of Ajay Singh Shekhawat, Lead Backend Engineer specializing in Java and distributed systems.">
+    <title>Resume — Ajay Singh Shekhawat</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="Ajay Shekhawat, home">AS<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/resume.html" aria-current="page">Resume</a>
+        <a class="nav-contact" href="/contact.html">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main class="resume-page section-wrap" id="main-content" tabindex="-1">
+      <div class="resume-heading">
+        <div>
+          <p class="eyebrow"><span class="status-dot"></span> Professional resume</p>
+          <h1>Ajay Singh Shekhawat</h1>
+          <p class="resume-subtitle">Lead Backend Engineer · Java · Spring Boot · Distributed Systems</p>
+        </div>
+        <a class="button button-dark download-button" href="/Ajay-Singh-Shekhawat-Resume.pdf" download>Download PDF <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <div class="resume-contact-line">
+        <a href="mailto:ajaysinghshekhawat014@gmail.com">ajaysinghshekhawat014@gmail.com</a>
+        <a href="https://www.linkedin.com/in/shekhawat-ajay-singh/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <span>Bengaluru, India</span>
+      </div>
+
+      <section class="resume-section">
+        <h2>Profile</h2>
+        <p class="resume-profile">Lead Backend Engineer with 8.5+ years of experience building and operating production backend systems, including high-throughput pricing systems. Experienced in Java, distributed systems, streaming platforms, and cloud-native infrastructure, with hands-on ownership of business-critical services, migrations, and production incident handling.</p>
+      </section>
+
+      <section class="resume-section">
+        <h2>Experience</h2>
+        <div>
+          <article class="resume-role">
+            <div class="resume-role-heading"><h3>Tech Lead <span>· Walmart, Price Engine</span></h3><time>Feb 2024 — Present</time></div>
+            <ul>
+              <li>Delivered feature changes in the Price Engine backend handling approximately 10 million price updates daily, supporting correctness and stability for pricing-critical workflows.</li>
+              <li>Owned Timeline Keeper after design finalization, building backend modules with audit and metrics that enabled decommissioning a legacy item store and offboarding approximately 100 million item-store mappings.</li>
+              <li>Led MPS onboarding from proof of concept to production, implementing support for message ingestion through HTTP POST APIs.</li>
+              <li>Provided design guidance and code reviews across teams to improve consistency, reliability, and shared architectural standards.</li>
+            </ul>
+          </article>
+          <article class="resume-role">
+            <div class="resume-role-heading"><h3>Software Development Engineer II <span>· Walmart, Clearance Markdown</span></h3><time>Jun 2021 — Jan 2024</time></div>
+            <ul>
+              <li>Led end-to-end design and implementation of a high-throughput streaming service processing approximately 50 million records.</li>
+              <li>Migrated a legacy mainframe job to BigQuery with partner teams, eliminating Spark-based processing and improving scalability and data access.</li>
+              <li>Built a Cassandra core common library to standardize data access and reduce recurring scalability and correctness issues.</li>
+              <li>Designed a Kafka-over-Cassandra storage pattern to address scalability issues during inter-service data transfer.</li>
+              <li>Delivered pricing features for budget, weighted average, and prime item handling; strengthened code quality through testing and Sonar adoption.</li>
+              <li>Led production incident response for pricing-critical systems, restoring availability through business-context and system-level debugging.</li>
+            </ul>
+          </article>
+          <article class="resume-role">
+            <div class="resume-role-heading"><h3>Software Development Engineer I <span>· InMobi, Marketing Cloud</span></h3><time>Jan 2020 — Jan 2021</time></div>
+            <ul>
+              <li>Improved a custom Cosmos autoscaler, reducing costs and smoothing Cosmos DB scaling.</li>
+              <li>Migrated 4+ services from Service Fabric to Azure Kubernetes Service.</li>
+              <li>Automated metadata refresh through Azure Data Factory and integrated backend systems with the CDP UI, including IAM API and workflow changes.</li>
+            </ul>
+          </article>
+          <article class="resume-role">
+            <div class="resume-role-heading"><h3>Software Development Engineer I <span>· Prism, Data Platform</span></h3><time>Jun 2018 — Dec 2020</time></div>
+            <ul>
+              <li>Built and operated Kafka-to-Hive ingestion pipelines for GB-to-TB-scale datasets, handling schema evolution, JSON transformations, and high-volume data.</li>
+              <li>Supported a transition from monolith to microservices and configured Presto for low-latency analytical queries.</li>
+              <li>Managed data-platform tooling including Airflow orchestration, a Druid proof of concept, and automated Sqoop-based Hive synchronization.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="resume-section resume-skills">
+        <h2>Technical skills</h2>
+        <dl>
+          <div><dt>Languages & frameworks</dt><dd>Java, Spring Boot, Spring, Python, Shell</dd></div>
+          <div><dt>APIs & service design</dt><dd>REST APIs, microservices</dd></div>
+          <div><dt>Streaming & data</dt><dd>Kafka, Cassandra, BigQuery, Hive, Presto, Spark, Druid</dd></div>
+          <div><dt>Databases</dt><dd>MySQL, PostgreSQL, MSSQL, MongoDB, Cosmos DB</dd></div>
+          <div><dt>Cloud & infrastructure</dt><dd>Kubernetes, GCP, AWS, Azure, hybrid and in-house platforms</dd></div>
+          <div><dt>Tools & platforms</dt><dd>Airflow, Azure Data Factory, Pub/Sub, HDFS, S3, GCS, Sqoop</dd></div>
+        </dl>
+      </section>
+
+      <section class="resume-section resume-education">
+        <h2>Education</h2>
+        <div>
+          <div class="resume-role-heading"><h3>B.Tech, Civil Engineering <span>· Minor in Computer Science Engineering</span></h3><time>2014 — 2018</time></div>
+          <p>Indian Institute of Technology Gandhinagar</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <a class="wordmark" href="/">AS<span>.</span></a>
+      <p><a href="/contact.html">Get in touch ↗</a></p>
+      <p>© <span id="year"></span> Ajay Singh Shekhawat</p>
+    </footer>
+  </body>
+</html>
